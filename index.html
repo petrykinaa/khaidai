@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khaidai.com</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__menu">
+        <a href="#" class="header__logo">
+          <img class="header-img" src="images/logo.png" alt="logo">
+        </a>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              How it works
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              Get Bounus
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">
+              Chat
+            </a>
+          </li>
+          <li class="header__menu-item">
+            <button class="header__menu-btn" type="submit">
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <form class="header__form" action="#">
+        <h1 class="header__form-title">
+          See who delivers in your neighborhood!
+        </h1>
+        <div class="header__form-box">
+          <input class="header__form-input header__form-input--address" type="text"
+            placeholder="Street address,City,State" required>
+          <input class="header__form-input header__form-input--food" type="text" placeholder="Food or Place" required>
+          <button class="header__form-btn" type="submit">
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="category">
+      <div class="container">
+        <h2 class="title category__title">
+          Browse by Category
+        </h2>
+        <ul class="category__filter">
+          <li class="category__filter-list">
+            <button class="category__filter-btn" data-filter="all">
+              <img class="category__filter-img" src="images/category/foodall.jpg" alt="food all">
+              all
+            </button>
+          </li>
+          <li class="category__filter-list">
+            <button class="category__filter-btn" data-filter=".category-food">
+              <img class="category__filter-img" src="images/category/food.jpg" alt="food">
+              food
+            </button>
+          </li>
+          <li class="category__filter-list">
+            <button class="category__filter-btn" data-filter=".category-beverage">
+              <img class="category__filter-img" src="images/category/beverage.jpg" alt="beverage">
+              beverage
+            </button>
+          </li>
+        </ul>
+        <ul class="category__content">
+          <li class="category__content-item mix category-food">
+            <img class="category__content-img" src="images/category/food1.jpg" alt="food"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+          <li class="category__content-item mix category-food">
+            <img class="category__content-img" src="images/category/food2.jpg" alt="food"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+          <li class="category__content-item mix category-food">
+            <img class="category__content-img" src="images/category/food3.jpg" alt="food"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+          <li class="category__content-item mix category-beverage">
+            <img class="category__content-img" src="images/category/beverage1.jpg" alt="beverage"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+          <li class="category__content-item mix category-beverage">
+            <img class="category__content-img" src="images/category/beverage2.jpg" alt="beverage"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+          <li class="category__content-item mix category-beverage">
+            <img class="category__content-img" src="images/category/beverage3.jpg" alt="beverage"></img>
+            <a class="category__content-link" href="#"></a>
+          </li>
+        </ul>
+        <ul class="box__list">
+          <li class="box__item">
+            <a class="box__link" href="#">American</a>
+            <a class="box__link" href="#">Asian</a>
+            <a class="box__link" href="#">Bagels</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">BBQ</a>
+            <a class="box__link" href="#">Breakfast</a>
+            <a class="box__link" href="#">Burgers</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Deli</a>
+            <a class="box__link" href="#">Desserts</a>
+            <a class="box__link" href="#">Fusion</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Indian</a>
+            <a class="box__link" href="#">Italian</a>
+            <a class="box__link" href="#">Japanese</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Vegetarian</a>
+            <a class="box__link" href="#">Middle Eastern</a>
+            <a class="box__link" href="#">Sandwiches</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="bonuses">
+      <div class="container">
+        <ul class="bonuses__list">
+          <li class="bonuses__item bonuses__item--phone">
+            <h3 class="subtitle">
+              Easy ordering
+            </h3>
+            <div class="text bonuses__text">
+              <p>
+                It's quick, convenient, and free to
+                use on any device.
+              </p>
+            </div>
+          </li>
+          <li class="bonuses__item bonuses__item--man">
+            <h3 class="subtitle">
+              More choices
+            </h3>
+            <div class="text bonuses__text">
+              <p>
+                Everything you want, including wine and
+                liquor, in one place.
+              </p>
+            </div>
+          </li>
+          <li class="bonuses__item bonuses__item--cup">
+            <h3 class="subtitle">
+              Earn rewards
+            </h3>
+            <div class="text bonuses__text">
+              <p>
+                Score Delivery Points with every purchase
+                and get great rewards.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="city">
+      <div class="container">
+        <h2 class="title city__title">
+          Browse by City
+        </h2>
+        <ul class="city__box">
+          <li class="city__item">
+            <img class="city__item-img city__item-img--big" src="images/city/newyork.jpg" alt="city">
+            <a class="city__item-link" href="#"></a>
+          </li>
+          <li class="city__item">
+            <img class="city__item-img city__item-img--small" src="images/city/chicago.jpg" alt="city">
+            <a class="city__item-link" href="#"></a>
+          </li>
+          <li class="city__item">
+            <img class="city__item-img city__item-img--small" src="images/city/losangeles.jpg" alt="city">
+            <a class="city__item-link" href="#"></a>
+          </li>
+          <li class="city__item">
+            <img class="city__item-img city__item-img--big" src="images/city/sanfrancisco.jpg" alt="city">
+            <a class="city__item-link" href="#"></a>
+          </li>
+        </ul>
+        <ul class="box__list">
+          <li class="box__item">
+            <a class="box__link" href="#">Arlington, VA</a>
+            <a class="box__link" href="#">Atlanta, GA</a>
+            <a class="box__link" href="#">Boston, MA</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Bronx, NY</a>
+            <a class="box__link" href="#">Brooklyn, NY</a>
+            <a class="box__link" href="#">Cambridge, MA</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Dallas, TX</a>
+            <a class="box__link" href="#">Denver, CO</a>
+            <a class="box__link" href="#">Hoboken, NJ</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Jersey City, NJ</a>
+            <a class="box__link" href="#">Miami, FL</a>
+            <a class="box__link" href="#">Philadelphia, PA</a>
+          </li>
+          <li class="box__item">
+            <a class="box__link" href="#">Queens, NY</a>
+            <a class="box__link" href="#">San Jose, CA</a>
+            <a class="box__link" href="#">Somerville, MA</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__info">
+        <a class="footer__info-link" href="#">About us</a>
+        <a class="footer__info-link" href="#">Contact</a>
+        <a class="footer__info-link" href="#">FAQ</a>
+        <a class="footer__info-link" href="#">Blog</a>
+        <a class="footer__info-link" href="#">Jobs</a>
+      </div>
+      <ul class="footer__socials">
+        <li class="footer__socials-item">
+          <a class="footer__socials-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="14px"
+              viewBox="0 0 9 14" version="1.1">
+              <g>
+                <path
+                  d="M 7.851562 7.875 L 8.25 5.339844 L 5.75 5.339844 L 5.75 3.695312 C 5.75 3.003906 6.097656 2.328125 7.21875 2.328125 L 8.355469 2.328125 L 8.355469 0.171875 C 8.355469 0.171875 7.324219 0 6.339844 0 C 4.277344 0 2.933594 1.214844 2.933594 3.410156 L 2.933594 5.339844 L 0.644531 5.339844 L 0.644531 7.875 L 2.933594 7.875 L 2.933594 14 L 5.75 14 L 5.75 7.875 Z M 7.851562 7.875 " />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+              height="16px" viewBox="0 0 16 16" version="1.1">
+              <g>
+                <path
+                  d="M 14.355469 4.742188 C 14.367188 4.882812 14.367188 5.027344 14.367188 5.167969 C 14.367188 9.503906 11.066406 14.496094 5.035156 14.496094 C 3.175781 14.496094 1.453125 13.960938 0 13.027344 C 0.265625 13.054688 0.519531 13.066406 0.792969 13.066406 C 2.324219 13.066406 3.734375 12.546875 4.863281 11.664062 C 3.421875 11.632812 2.214844 10.691406 1.796875 9.390625 C 2 9.421875 2.203125 9.441406 2.417969 9.441406 C 2.710938 9.441406 3.003906 9.402344 3.277344 9.328125 C 1.777344 9.023438 0.648438 7.707031 0.648438 6.113281 L 0.648438 6.070312 C 1.085938 6.316406 1.59375 6.46875 2.132812 6.488281 C 1.25 5.898438 0.671875 4.894531 0.671875 3.757812 C 0.671875 3.148438 0.832031 2.589844 1.117188 2.101562 C 2.730469 4.089844 5.15625 5.390625 7.878906 5.53125 C 7.828125 5.289062 7.796875 5.035156 7.796875 4.78125 C 7.796875 2.976562 9.257812 1.503906 11.074219 1.503906 C 12.019531 1.503906 12.871094 1.898438 13.472656 2.539062 C 14.214844 2.394531 14.921875 2.121094 15.554688 1.746094 C 15.308594 2.507812 14.792969 3.148438 14.113281 3.554688 C 14.773438 3.480469 15.410156 3.300781 16 3.046875 C 15.554688 3.695312 14.996094 4.273438 14.355469 4.742188 Z M 14.355469 4.742188 " />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px"
+              height="15px" viewBox="0 0 14 14" version="1.1">
+              <g>
+                <path
+                  d="M 14 7.160156 C 14 11.027344 11.21875 13.78125 7.113281 13.78125 C 3.179688 13.78125 0 10.75 0 7 C 0 3.25 3.179688 0.21875 7.113281 0.21875 C 9.03125 0.21875 10.644531 0.890625 11.886719 1.992188 L 9.949219 3.769531 C 7.414062 1.4375 2.707031 3.1875 2.707031 7 C 2.707031 9.367188 4.6875 11.28125 7.113281 11.28125 C 9.933594 11.28125 10.988281 9.355469 11.152344 8.359375 L 7.113281 8.359375 L 7.113281 6.027344 L 13.886719 6.027344 C 13.953125 6.375 14 6.707031 14 7.160156 Z M 14 7.160156 " />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px"
+              height="16px" viewBox="0 0 18 16" version="1.1">
+              <g>
+                <path
+                  d="M 17.175781 3.878906 C 16.980469 3.136719 16.402344 2.554688 15.667969 2.359375 C 14.335938 2 9 2 9 2 C 9 2 3.664062 2 2.332031 2.359375 C 1.597656 2.554688 1.019531 3.136719 0.824219 3.878906 C 0.464844 5.21875 0.464844 8.011719 0.464844 8.011719 C 0.464844 8.011719 0.464844 10.808594 0.824219 12.148438 C 1.019531 12.886719 1.597656 13.445312 2.332031 13.640625 C 3.664062 14 9 14 9 14 C 9 14 14.335938 14 15.667969 13.640625 C 16.402344 13.445312 16.980469 12.886719 17.175781 12.148438 C 17.535156 10.808594 17.535156 8.011719 17.535156 8.011719 C 17.535156 8.011719 17.535156 5.21875 17.175781 3.878906 Z M 7.253906 10.550781 L 7.253906 5.472656 L 11.714844 8.011719 Z M 7.253906 10.550781 " />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+              height="18px" viewBox="0 0 16 18" version="1.1">
+              <g>
+                <path
+                  d="M 15.167969 10.539062 C 15.269531 10.046875 15.335938 9.523438 15.335938 9 C 15.335938 5.007812 12.054688 1.78125 8.003906 1.78125 C 7.472656 1.78125 6.941406 1.84375 6.4375 1.949219 C 5.761719 1.429688 4.917969 1.125 4 1.125 C 1.792969 1.125 0 2.890625 0 5.0625 C 0 5.964844 0.3125 6.796875 0.832031 7.460938 C 0.730469 7.953125 0.664062 8.476562 0.664062 9 C 0.664062 12.992188 3.945312 16.21875 7.996094 16.21875 C 8.527344 16.21875 9.058594 16.15625 9.5625 16.050781 C 10.238281 16.566406 11.082031 16.871094 11.996094 16.871094 C 14.203125 16.871094 15.996094 15.105469 15.996094 12.933594 C 16 12.035156 15.6875 11.203125 15.167969 10.539062 Z M 8.21875 13.757812 C 5.875 13.757812 3.914062 12.730469 3.914062 11.472656 C 3.914062 10.910156 4.234375 10.394531 4.96875 10.394531 C 6.082031 10.394531 6.1875 11.972656 8.113281 11.972656 C 9.03125 11.972656 9.625 11.574219 9.625 11.050781 C 9.625 10.390625 9.054688 10.289062 8.125 10.066406 C 5.894531 9.523438 3.917969 9.292969 3.917969 7 C 3.917969 4.917969 6.011719 4.148438 7.8125 4.148438 C 9.78125 4.148438 11.769531 4.917969 11.769531 6.097656 C 11.769531 6.691406 11.363281 7.214844 10.6875 7.214844 C 9.679688 7.214844 9.644531 6.035156 8.011719 6.035156 C 7.09375 6.035156 6.511719 6.28125 6.511719 6.828125 C 6.511719 7.523438 7.253906 7.59375 8.980469 7.988281 C 10.457031 8.3125 12.21875 8.929688 12.21875 10.714844 C 12.21875 12.792969 10.179688 13.757812 8.21875 13.757812 Z M 8.21875 13.757812 " />
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__copy">
+        <p>
+          ©2020 Khaidai.com
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

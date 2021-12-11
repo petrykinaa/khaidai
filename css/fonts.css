@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Lato-Regular', sans-serif;
+  src: local('Lato-Regular'),
+       url('../fonts/Lato-Regular.woff2') format('woff2'),
+       url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: 400px;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato-Bold', sans-serif;
+  src: local('Lato-Bold'),
+       url('../fonts/Lato-Bold.woff2') format('woff2'),
+       url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: 700px;
+  font-style: normal;
+  font-display: swap;
+}
